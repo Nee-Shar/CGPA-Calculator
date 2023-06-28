@@ -8,7 +8,10 @@ document.getElementById("cal").addEventListener("click", () => {
   var sub = drop * 4;
 
   //console.log(sum - sub);
-  var ans = (sum - sub) / 80;
+  if(sub!=0)
+    var ans = (sum - sub) / 80;
+  else
+    var ans=(sum)/84;
   //console.log(ans);
   document.getElementById("final").value = ans;
   document.getElementById("final").style.visibility = "visible";
