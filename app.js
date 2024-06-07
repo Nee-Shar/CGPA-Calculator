@@ -14,7 +14,7 @@ document.getElementById("cal").addEventListener("click", () => {
 
   //console.log(sum - sub);
   if(sub!=0)
-    var ans = (sum - sub) / 132;
+    var ans = (sum - sub) / 124;
   else
     var ans=(sum)/132;
   //console.log(ans);
