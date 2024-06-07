@@ -17,6 +17,7 @@ document.getElementById("cal").addEventListener("click", () => {
   else
     var ans=(sum)/132;
   //console.log(ans);
+  alert(ans);
   document.getElementById("final").value = ans;
   document.getElementById("final").style.visibility = "visible";
 });
