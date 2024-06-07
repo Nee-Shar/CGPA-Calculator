@@ -1,4 +1,5 @@
 document.getElementById("cal").addEventListener("click", () => {
+  alert("CLICKED");
   var sem1 = document.getElementById("sem1").value;
   var sem2 = document.getElementById("sem2").value;
   var sem3 = document.getElementById("sem3").value;
